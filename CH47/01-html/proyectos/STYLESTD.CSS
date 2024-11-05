@@ -1,0 +1,82 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    overflow: hidden;
+    background-color:black;
+    color: white;
+
+}
+li{
+    float: left;
+}
+li{
+    display: block;
+    text-align: center;
+    padding: auto;
+    text-decoration: none;
+
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+    
+li a:hover{
+    background-color: white;
+    color:black
+}
+:root{
+    color-scheme: dark;
+}
+
+.tex-with-image{
+    font-size: 80px;
+    font-weight: 900;
+    color: transparent;
+    background-image:
+    url('https://cdn.pixabay.com/photo/2023/04/09/22/44/house-7912453_1280.png');
+    background-clip: text;
+}
+.d-flex{
+    display: flex;
+    
+}
+.img,p{
+    
+    padding: 20px;
+}
+p{
+    font-size: 30px;
+}
+[type=text],[type=tel],[type=email],[type=date],[type=submit],[type=button]{
+    border-radius: 10px;
+}
+[type=button]{
+    display: inline-block;
+    padding: 16px 32px;
+    background: rgb(210, 30, 255);
+    color: #fff;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+ 

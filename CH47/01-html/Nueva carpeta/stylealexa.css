@@ -1,0 +1,31 @@
+body {
+ 
+ 
+  font-family: Arial, sans-serif;
+
+
+h1 {
+  font-family: 'Simplifica', sans-serif;
+  
+}
+
+
+.d-flex{
+  display: flex;
+}
+img,p{
+  padding: 10px;
+}
+.precio {
+  color: red;
+  font-size: 50px;
+  font-weight: bold;}
+
+.container{
+display: flex;
+font-size: 10px;
+
+
+}  
+}
+
