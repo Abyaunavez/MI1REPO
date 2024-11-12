@@ -1,0 +1,35 @@
+/* Aplica estilos base a la barra de navegación */
+.navbar {
+    display: flex; /* Usa un contenedor flex para organizar los elementos */
+    flex-wrap: wrap; /* Permite que los elementos del navbar se envuelvan en múltiples líneas si es necesario */
+    align-items: center; /* Centra los elementos verticalmente */
+    justify-content: space-between; /* Distribuye los elementos del navbar con espacio entre ellos */
+  }
+  
+  /* Estilos para la variante light de la barra de navegación */
+  .navbar-light {
+    background-color: #f8f9fa; /* Color de fondo claro */
+    color: #000; /* Color de texto oscuro */
+  }
+  
+  /* Estilo para el fondo claro de la barra de navegación */
+  .bg-light {
+    background-color: #f8f9fa !important; /* Sobrescribe otros estilos con un fondo claro */
+  }
+  
+  /* Estilos para el enlace activo del navbar */
+  .nav-link.active {
+    color: #007bff; /* Color azul para el enlace activo */
+  }
+  
+  /* Estilos para el menú desplegable */
+  .nav-item.dropdown .dropdown-menu {
+    position: absolute; /* Posiciona el menú desplegable relativo a su contenedor */
+    top: 100%; /* Alinea el menú justo debajo del elemento desplegable */
+    left: 0; /* Alinea el menú con el borde izquierdo del contenedor */
+    margin-top: 0.125rem; /* Espacio entre el contenedor y el menú */
+    min-width: 10rem; /* Ancho mínimo del menú desplegable */
+    background-color: #fff; /* Fondo blanco para el menú */
+    border: 1px solid rgba(0, 0, 0, 0.15); /* Borde ligero alrededor del menú */
+  }
+  
