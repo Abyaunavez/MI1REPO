@@ -9,7 +9,7 @@
   /* Estilos para la variante light de la barra de navegación */
   .navbar-light {
     background-color: #f8f9fa; /* Color de fondo claro */
-    color: #000; /* Color de texto oscuro */
+    color: #ffffff; /* Color de texto oscuro */
   }
   
   /* Estilo para el fondo claro de la barra de navegación */
@@ -29,7 +29,7 @@
     left: 0; /* Alinea el menú con el borde izquierdo del contenedor */
     margin-top: 0.125rem; /* Espacio entre el contenedor y el menú */
     min-width: 10rem; /* Ancho mínimo del menú desplegable */
-    background-color: #fff; /* Fondo blanco para el menú */
+    background-color: #f1f1f1; /* Fondo blanco para el menú */
     border: 1px solid rgba(0, 0, 0, 0.15); /* Borde ligero alrededor del menú */
   }
   

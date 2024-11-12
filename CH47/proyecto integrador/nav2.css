@@ -16,23 +16,23 @@
         min-height: 100vh;
         background: linear-gradient(
             45deg,
-            hsl(0, 0%, 8%) 0%,
+            hsl(18, 81%, 56%) 0%,
             hsla(18, 88%, 45%, 0) 70%
           ),
           linear-gradient(
 
             135deg,
-            rgb(14, 14, 15) 10%,
+            rgb(54, 164, 63) 10%,
             hsla(225, 95%, 50%, 0) 80%
           ),
           linear-gradient(
             225deg,
-            rgb(18, 19, 18) 10%,
+            rgb(8, 150, 176) 10%,
             hsla(140, 90%, 50%, 0) 80%
           ),
           linear-gradient(
             315deg,
-            rgb(31, 194, 239) 100%,
+            rgb(128, 20, 112) 100%,
             hsla(35, 95%, 55%, 0) 70%
           );
       }
@@ -51,11 +51,11 @@
         color: rgb(255, 255, 255);
         text-decoration: none;
         font-size: 20px;
-        background: rgb(51, 236, 243);
+        background: rgb(12, 12, 12);
         padding: 10px 20px;
         display: inline-block;
         margin: 20px;
-        border-radius: 5px;
+        border-radius: 10px;
       }
 
       nav ul {
@@ -97,10 +97,10 @@
         width: 100px;
         height: 100px;
         position: absolute;
-        background: #161616;
+        background: #000000;
         border-radius: 4px;
         box-shadow: 0 50px 100px rgba(50, 50, 93, 0.1),
-          0 15px 35px rgba(113, 113, 208, 0.15), 0 5px 15px rgba(0, 0, 0, 0.1);
+          0 15px 35px rgba(55, 170, 35, 0.15), 0 5px 15px rgba(0, 0, 0, 0.1);
         transition: all 0.3s, opacity 0.1s, transform 0.2s;
         transform-origin: 50% 0;
         display: flex;
@@ -117,7 +117,7 @@
         width: 20px;
         height: 20px;
         display: block;
-        background: white;
+        background: rgb(255, 255, 255);
         transform: translateY(-50%) rotate(45deg);
       }
 
@@ -141,12 +141,12 @@
       .courses li {
         padding: 10px 0;
         display: block;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        border-bottom: 1px solid rgb(9, 9, 9);
       }
 
       .dropdown a {
         text-decoration: none;
-        color: #ffc600;
+        color: #9f2884;
       }
 
       a.button {
@@ -159,13 +159,13 @@
 
       /* Matches Twitter, TWITTER, twitter, tWitter, TWiTTeR... */
       .button[href*="instagram"] {
-        background: #e98c01;
+        background: #9f2884;
       }
       .button[href*="Gabrielcordoba"] {
-        background: #9500ff;
+        background: #f36b37;
       }
       .button[href*="linkedin"] {
-        background: #3b5998;
+        background: #98bf3e;
       }
       .image {
         width: 128px;
