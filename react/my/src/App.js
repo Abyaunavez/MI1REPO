@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import SideMenu from './components/SideMenu';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <SideMenu />
+      <main style={{ marginLeft: 240, padding: 20 }}>
+        <h1>Bienvenido a Mi Proyecto Integrador</h1>
+        <p>Esta es la página de presentación de mi proyecto.</p>
+      </main>
     </div>
   );
 }
 
 export default App;
+
