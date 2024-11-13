@@ -103,3 +103,4 @@ function operacionMatematica(typoOperacion){
    document.getElementById("result").innerHTML = `Resultado: ${resultado}`; /*strings simples se declaran  = ",'
 strings literals  = ` */
    }
+   module.exports = calculate;
